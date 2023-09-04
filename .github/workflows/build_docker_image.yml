@@ -36,7 +36,7 @@ jobs:
           --health-retries 5
     steps:
       - name: ソースコードをチェックアウトする
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Docker イメージ をビルドする
         env:
           DOCKER_BUILDKIT: 1 # '# syntax = docker/dockerfile:1.2' は不要だが、この指定は 2023/01/23 現在、必須
