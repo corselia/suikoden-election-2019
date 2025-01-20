@@ -147,7 +147,7 @@ GEM
       ruby2_keywords
     equalizer (0.0.11)
     erubi (1.12.0)
-    execjs (2.8.1)
+    execjs (2.10.0)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
     factory_bot_rails (6.2.0)
@@ -440,7 +440,7 @@ GEM
     sshkit-interactive (0.3.0)
       sshkit (~> 1.12)
     temple (0.8.2)
-    terser (1.1.17)
+    terser (1.2.5)
       execjs (>= 0.3.0, < 3)
     thor (1.2.2)
     thread_safe (0.3.6)
